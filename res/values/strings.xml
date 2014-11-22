@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MainActivity -->
+    <string name="app_name">RatRaceGame</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">welcome to the rat race!</string>
+    <string name="startbutton">Let\'s start</string>
+    <string name="goal">The goal is to get out of the rat race.\n \n
+        Passive Income > Total Expense</string>
+
+    <!-- PickProfessionActivity -->
+    <string name="profession_intro">In life, you don\'t always get to choose your dream job.\n
+        You\'ll be given one of these jobs:</string>
+    <string name="givemebutton">Give Me a Job!</string>
+    <string name="empty"></string>
+
+    <!-- RatRaceActivity -->
+    <string name="balancesheetbutton">Show Balance Sheet</string>
+    <string name="gobutton">GO!</string>
+    <string name="index">INDEX</string>
+    <string name="market">The Market</string>
+    <string name="opportunity">Opportunity</string>
+    <string name="paycheck">Paycheck</string>
+    <string name="doodad">Doodad</string>
+    <string name="downsized">Downsized</string>
+    <string name="backbutton">Back</string>
+
+    <!-- BalanceSheetActivity -->
+    <string name="balancesheet">Balance Sheet</string>
+    <string name="income">Income</string>
+    <string name="expense">Expenses</string>
+    <string name="asset">Assets</string>
+    <string name="liabilites">Liabilites</string>
+
+    <!-- PaycheckActivity -->
+    <string name="paycheck_intro">You\'ve gotten a paycheck!</string>
+
+    <!-- DownsizedActivity -->
+    <string name="downsized_intro">You\'ve been downsized!</string>
+    
+    <!-- OpportunityActivity -->
+    <string name="buybutton">Buy</string>
+    
+    <!-- COLORS -->
+    <color name="barfgreen">#669966</color>
+    <color name="broccoli">#99CC00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blackish">#141414</color>
+    <color name="gray">#494949</color>
+    <color name="grayish">#333333</color>
+    <color name="gray1">#B8B8B8</color>
+    <color name="blue">#0066FF</color>
+    <color name="blue1">#0000FF</color>
+    <color name="red">#FF0000</color>
+    <!-- END COLORS -->
+
+    <string name="title_activity_pick_profession">PickProfessionActivity</string>
+    <string name="title_activity_rat_race">RatRaceActivity</string>
+    <string name="title_activity_balance_sheet">BalanceSheetActivity</string>
+    <string name="title_activity_win">WinActivity</string>
+    <string name="title_activity_paycheck">PaycheckActivity</string>
+    <string name="title_activity_downsized">DownsizedActivity</string>
+    <string name="title_activity_chance">ChanceActivity</string>
+    <string name="title_activity_opportunity">OpportunityActivity</string>
+
+</resources>

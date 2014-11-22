@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ratracegame"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PickProfessionActivity"
+            android:label="@string/title_activity_pick_profession" >
+        </activity>
+        <activity
+            android:name=".RatRaceActivity"
+            android:label="@string/title_activity_rat_race" >
+        </activity>
+        <activity
+            android:name=".BalanceSheetActivity"
+            android:label="@string/title_activity_balance_sheet" >
+        </activity>
+        <activity
+            android:name=".WinActivity"
+            android:label="@string/title_activity_win" >
+        </activity>
+        <activity
+            android:name=".PaycheckActivity"
+            android:label="@string/title_activity_paycheck" >
+        </activity>
+        <activity
+            android:name=".DownsizedActivity"
+            android:label="@string/title_activity_downsized" >
+        </activity>
+        <activity
+            android:name=".ChanceActivity"
+            android:label="@string/title_activity_chance" >
+        </activity>
+        <activity
+            android:name=".OpportunityActivity"
+            android:label="@string/title_activity_opportunity" >
+        </activity>
+    </application>
+
+</manifest>
